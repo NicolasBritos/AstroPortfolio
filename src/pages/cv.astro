@@ -1,0 +1,119 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import TimeLineElement from "../components/cv/TimeLine.astro";
+---
+
+<BaseLayout title = "Resume">
+  
+  <div class="mb-1 text-right"><a href="https://drive.google.com/uc?export=download&id=112A8o8w-oHNTz8Ucxs6dF5GzLd0UYI_b" target="_blank" class="btn btn-outline btn-warning"> Descargar CV .PDF</a></div>   
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Perfil</div>
+  </div>
+
+  <div class="mb-10 text-justify">
+Tengo 27 años y vivo en Posadas, Misiones-Argentina. Soy Java Backend Developer y utilizo como principales tecnologías Spring Boot y Spring Framework, además
+soy estudiante de tercer año de la carrera “Analista Universitario en Sistemas”. 
+Me considero una persona sociable, comprometida y motivada en seguir aprendiendo y mejorando mis habilidades como developer.
+  </div>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Educacion</div>
+  </div>
+
+  <div class="time-line-container grid gap-4 mb-10">
+    <TimeLineElement
+      title="Analista Universitario en Sistemas"
+      subtitle="Estudiante de tercer año, Universidad Gaston Dachary, Posadas,Misiones-Argentina."
+    />
+    <TimeLineElement
+      title="Curso: Master Microservices with Spring Boot and Spring Cloud"
+      subtitle="Marzo 2023 - En curso, Udemy"
+    />
+    <TimeLineElement
+      title="Curso: Universidad Spring Boot - Spring Framework"
+      subtitle="Agosto 2022 - Marzo 2023, Udemy"
+    />
+    <TimeLineElement
+      title="Curso: Desarrollo de APIs con Spring Boot"
+      subtitle="Abril 2022 - Junio 2022, TodoCode Academy"
+    />
+    <TimeLineElement
+      title="Curso: Desarrollo Web Fullstack con Java"
+      subtitle="Abril 2021 - Agosto 2021, PoloTic Misiones"
+    />
+  </div>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Experiencia</div>
+  </div>
+
+  <div class="time-line-container mb-10">
+    <TimeLineElement
+      title="Java Backend Developer"
+      subtitle="Empresa Yacaré (Fintech), Marzo 2022 - Enero 2023"
+      desc="Área de soporte: Revisión de Logs (AWS) y base de datos. Área de Integraciones: Comunicación e Integración con empresas. Área de Desarrollo Backend:  Resolución de bugs, desarrollo de APIs/funciones, refactoring."
+    />
+    <TimeLineElement
+      title="Java Backend Developer"
+      subtitle="Empresa Fiserv (Fintech), Febrero 2023 - Presente"
+      desc="Área de Desarrollo Backend: Resolución de bugs, desarrollo de APIs/funciones, refactoring"
+    />
+  </div>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Certificaciones</div>
+  </div>
+
+  <ul class="list-disc mx-6 mb-10 grid gap-2">
+    <li>
+      <a class="link link-warning" href="https://www.udemy.com/certificate/UC-0fa23ef1-ba33-45fe-81fc-ee6a3ae8e208/" target="_blank"> Universidad Spring Boot - Spring Framework - Udemy</a>
+    </li>
+    <li>
+      <a class="link link-warning" href="https://drive.google.com/file/d/18Qj_0ZdQZ5v032hhQOWzYsfV9QkJlQut/view" target="_blank"> Desarrollo de APIs con Spring Boot - TodoCode Academy</a>
+    </li> 
+    <li>
+      <a class="link link-warning" href="https://drive.google.com/file/d/1heEy-exzoUjzTcOlLWdcr6gJ3jrMCgEO/view?usp=sharing" target="_blank"> Desarrollo Web Fullstack con Java- PoloTic Misiones</a>
+    </li> 
+
+   
+  </ul>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Habilidades Técnicas</div>
+  </div>
+
+  <ul class="list-disc md:columns-5 columns-2 mx-6">
+    <li>English (B1)</li>
+    <li>Java</li>
+    <li>Spring Boot</li>
+    <li>Spring Framework</li>
+    <li>Microservicios</li>
+    <li>APIs REST</li>
+    <li>AWS Logs</li>
+    <li>SQL</li>
+    <li>Javascript</li>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>Git</li>
+    <li>Jira / Trello</li>
+    <li>Scrum</li>
+    <li>Kanban</li>
+    </ul>
+
+<div class="mb-5"></div>
+
+<div class="mb-5">
+  <div class="text-3xl w-full font-bold">Habilidades Blandas</div>
+</div>
+
+<ul class="list-disc md:columns-2 columns-2 mx-6">
+  <li>Trabajo individual y/o en equipo</li>
+  <li>Responsable y aplicado</li>
+  <li>Autodidacta</li>
+  <li>Motivado por seguir aprendiendo</li>
+  <li>Optimista</li>
+  <li>Empático</li>
+  <li>Comunicación efectiva</li>
+  <li>Iniciativa</li>
+  </ul>
+</BaseLayout>
